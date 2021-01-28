@@ -1,0 +1,9 @@
+{
+  "$schema": "../node_modules/@angular-devkit/schematics/collection-schema.json",
+  "schematics": {
+    "anxelin-project-structure": {
+      "description": "A blank schematic.",
+      "factory": "./anxelin-project-structure/index#anxelinFolderStructure"
+    }
+  }
+}

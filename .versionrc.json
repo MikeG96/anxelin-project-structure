@@ -1,0 +1,14 @@
+{
+  "types": [
+    { "type": "feat", "section": "Features" },
+    { "type": "fix", "section": "Bug Fixes" },
+    { "type": "chore", "section": "Chore" },
+    { "type": "docs", "section": "Docs" },
+    { "type": "style", "section": "Style" },
+    { "type": "refactor", "section": "Refactor" },
+    { "type": "perf", "hidden": true },
+    { "type": "test", "hidden": true }
+  ],
+  "commitUrlFormat": "https://github.com/MikeG96/anxelin-project-structure/commits/{{hash}}",
+  "compareUrlFormat": "https://github.com/MikeG96/anxelin-project-structure/compare/{{previousTag}}...{{currentTag}}"
+}
