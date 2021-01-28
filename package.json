@@ -1,6 +1,6 @@
 {
   "name": "anxelin-project-structure",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "A blank schematics",
   "scripts": {
     "build": "tsc -p tsconfig.json",
