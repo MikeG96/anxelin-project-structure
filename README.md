@@ -126,6 +126,7 @@ Add the following `scripts` in your `package.json`
   }
 }
 ```
+
 ### First release
 
 Run in a terminal
@@ -158,6 +159,14 @@ Finally you can check your autogenerate `CHANGELOG`.
 
 Contributions, issues and feature requests are welcome!<br />Feel free to check
 [issues page](https://github.com/MikeG96/anxelin-project-structure/issues).
+
+## Donate
+
+<form action="https://www.paypal.com/donate" method="post" target="_top">
+<input type="hidden" name="hosted_button_id" value="866QFDYAF5F5W" />
+<input type="image" src="https://www.paypalobjects.com/en_US/MX/i/btn/btn_donateCC_LG.gif" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button" />
+<img alt="" border="0" src="https://www.paypal.com/en_MX/i/scr/pixel.gif" width="1" height="1" />
+</form>
 
 ## Show your support
 
