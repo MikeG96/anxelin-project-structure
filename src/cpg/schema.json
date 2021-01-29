@@ -1,0 +1,6 @@
+{
+  "$schema": "http://json-schema.org/schema",
+  "id": "cpg",
+  "title": "Creates a prettierrc file with standard configuration",
+  "type": "object"
+}

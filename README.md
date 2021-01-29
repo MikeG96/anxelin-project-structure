@@ -35,27 +35,48 @@ schematics .:anxelin-project-structure
 npm run test
 ```
 
-## How to use in your Angular project? 
+## How to use in your Angular project?
 
 ```sh
-ng g anxelin-project-structure:anxelin-project-structure
+ng g anxelin-project-structure:<SCHEMATIC_OPTION>
+```
+
+## Schematic Options
+
+### cpg
+
+```sh
+ng g anxelin-project-structure:cpg
+```
+
+Creates a prettierrc file configuration
+
+```json
+{
+  "semi": true,
+  "singleQuote": true,
+  "proseWrap": "always"
+}
 ```
 
 ## Author
 
 👤 **mikeg96 (https://github.com/MikeG96)**
 
-* Website: https://anxelin.dev
-* Github: [@mikeg96](https://github.com/mikeg96)
-* LinkedIn: [@malgarcia](https://linkedin.com/in/malgarcia)
+- Website: https://anxelin.dev
+- Github: [@mikeg96](https://github.com/mikeg96)
+- LinkedIn: [@malgarcia](https://linkedin.com/in/malgarcia)
 
 ## 🤝 Contributing
 
-Contributions, issues and feature requests are welcome!<br />Feel free to check [issues page](https://github.com/MikeG96/anxelin-project-structure/issues). 
+Contributions, issues and feature requests are welcome!<br />Feel free to check
+[issues page](https://github.com/MikeG96/anxelin-project-structure/issues).
 
 ## Show your support
 
 Give a ⭐️ if this project helped you!
 
-***
-_This README was generated with ❤️ by [readme-md-generator](https://github.com/kefranabg/readme-md-generator)_
+---
+
+_This README was generated with ❤️ by
+[readme-md-generator](https://github.com/kefranabg/readme-md-generator)_
