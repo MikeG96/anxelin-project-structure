@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.0.0](https://github.com/MikeG96/anxelin-project-structure/compare/v0.6.0...v1.0.0) (2021-01-29)
+
+
+### Features
+
+* add contributing and issue template ([ab5a1eb](https://github.com/MikeG96/anxelin-project-structure/commits/ab5a1eb60c3348b4856b14912a02424512ca8f3a))
+* add donate button ([6288929](https://github.com/MikeG96/anxelin-project-structure/commits/628892996752f42722d9a9d7b61204d03f792cc4))
+
 ## [0.6.0](https://github.com/MikeG96/anxelin-project-structure/compare/v0.4.0...v0.6.0) (2021-01-29)
 
 
