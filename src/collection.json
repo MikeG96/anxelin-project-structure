@@ -9,6 +9,11 @@
       "description": "Creates a prettierrc file with standard configuration",
       "factory": "./cpg/index#cpg",
       "schema": "./cpg/schema.json"
+    },
+    "chac": {
+      "description": "Creates files to autogenerate CHANGELOG and validate commits structure",
+      "factory": "./chac/index#chac",
+      "schema": "./chac/schema.json"
     }
   }
 }

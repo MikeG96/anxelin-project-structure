@@ -94,6 +94,58 @@ Creates a prettierrc file configuration
 }
 ```
 
+### chac
+
+```sh
+ng g anxelin-project-structure:chac
+```
+
+Create files to autogeneration CHANGELOG and validate commits with
+[`Conventional Commits`](https://www.conventionalcommits.org/en/v1.0.0/).
+
+### Steps to configure
+
+You need to install the following dependencies.
+
+Run in a terminal
+
+```sh
+npm install husky && npm install @commitlint/config-conventional && npm i --save-dev standard-version
+```
+
+Add the following `scripts` in your `package.json`
+
+```json
+{
+  "scripts": {
+    // ...
+    "release": "standard-version",
+    "release:minor": "standard-version --release-as minor",
+    "release:patch": "standard-version --release-as patch",
+    "release:major": "standard-version --release-as major"
+  }
+}
+```
+### First release
+
+Run in a terminal
+
+```sh
+npm run release -- --first-release
+
+# Output
+> standard-version "--first-release"
+
+✖ skip version bump on first release
+✔ created CHANGELOG.md
+✔ outputting changes to CHANGELOG.md
+✔ committing CHANGELOG.md
+✔ tagging release v0.0.0
+ℹ Run `git push --follow-tags origin master` to publish
+```
+
+Finally you can check your autogenerate `CHANGELOG`.
+
 ## Author
 
 👤 **mikeg96 (https://github.com/MikeG96)**

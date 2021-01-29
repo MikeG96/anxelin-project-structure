@@ -1,0 +1,19 @@
+{
+  "$schema": "http://json-schema.org/schema",
+  "id": "chac",
+  "title": "Create files to autogeneration CHANGELOG and validate commits",
+  "type": "object",
+  "properties": {
+    "commitUrl": {
+      "type": "string",
+      "description": "Url where the commit history of your project is displayed ",
+      "x-prompt": "Enter url where the commit history of your project is displayed, for example: https://github.com/MikeG96/anxelin-project-structure/commits:"
+    },
+    "compareUrl": {
+      "type": "string",
+      "description": "Url where the compare history of your project is displayed ",
+      "x-prompt": "Enter url where the compare history of your project is displayed, for example: https://github.com/MikeG96/anxelin-project-structure/compare:"
+    }
+  },
+  "required": ["commitUrl", "compareUrl"]
+}
