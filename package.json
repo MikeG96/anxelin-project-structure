@@ -1,5 +1,5 @@
 {
-  "name": "anxelin-project-structure",
+  "name": "@schematics/anxelin-project-structure",
   "version": "0.1.0",
   "description": "Create a project structure for an Angular project",
   "scripts": {
