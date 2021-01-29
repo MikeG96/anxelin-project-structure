@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.2.1](https://github.com/MikeG96/anxelin-project-structure/compare/v0.2.0...v0.2.1) (2021-01-29)
+
+
+### Chore
+
+* rename package to publish npmjs ([690f849](https://github.com/MikeG96/anxelin-project-structure/commits/690f849e23070335ccfcfc74817cb3571bd4bc31))
+
 ## [0.2.0](https://github.com/MikeG96/anxelin-project-structure/compare/v0.1.1...v0.2.0) (2021-01-29)
 
 

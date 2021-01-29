@@ -1,6 +1,6 @@
 {
   "name": "anxelin-project-structure",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Create a project structure for an Angular project",
   "scripts": {
     "build": "tsc -p tsconfig.json",
