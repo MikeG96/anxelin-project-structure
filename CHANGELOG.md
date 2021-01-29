@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [0.4.0](https://github.com/MikeG96/anxelin-project-structure/compare/v0.3.1...v0.4.0) (2021-01-29)
+
+
+### Chore
+
+* update readme and remove ng-add support ([f315dcc](https://github.com/MikeG96/anxelin-project-structure/commits/f315dccddf246cc4225505eedb3a023f3f195183))
+
 ### [0.3.1](https://github.com/MikeG96/anxelin-project-structure/compare/v0.3.0...v0.3.1) (2021-01-29)
 
 ## [0.3.0](https://github.com/MikeG96/anxelin-project-structure/compare/v0.2.1...v0.3.0) (2021-01-29)
