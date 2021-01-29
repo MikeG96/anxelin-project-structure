@@ -12,7 +12,14 @@
     "release:major": "standard-version --release-as major"
   },
   "keywords": [
-    "schematics"
+    "schematics",
+    "angular",
+    "changelog",
+    "commits",
+    "conventional commits",
+    "prettier",
+    "folder structure",
+    "angular folder structure"
   ],
   "author": "mikeg96 (https://github.com/MikeG96)",
   "license": "MIT",
