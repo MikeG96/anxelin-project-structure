@@ -1,7 +1,7 @@
 {
   "name": "anxelin-project-structure",
   "version": "0.1.0",
-  "description": "A blank schematics",
+  "description": "Create a project structure for an Angular project",
   "scripts": {
     "build": "tsc -p tsconfig.json",
     "build:watch": "tsc -p tsconfig.json --watch",
@@ -14,7 +14,7 @@
   "keywords": [
     "schematics"
   ],
-  "author": "",
+  "author": "mikeg96 (https://github.com/MikeG96)",
   "license": "MIT",
   "schematics": "./src/collection.json",
   "dependencies": {
@@ -31,5 +31,9 @@
     "@types/node": "^12.11.1",
     "jasmine": "^3.5.0",
     "standard-version": "^9.1.0"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/MikeG96/anxelin-project-structure/issues"
+  },
+  "homepage": "https://github.com/MikeG96/anxelin-project-structure/#README"
 }
