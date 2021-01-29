@@ -2,6 +2,20 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [0.6.0](https://github.com/MikeG96/anxelin-project-structure/compare/v0.4.0...v0.6.0) (2021-01-29)
+
+
+### Features
+
+* add chack for autogenerate changelog and validate commit with commits conventional ([e5a2c38](https://github.com/MikeG96/anxelin-project-structure/commits/e5a2c384fed7c2c3d1e7c287f8be7397ebb336bf))
+* add create prettier file configuration ([742bda5](https://github.com/MikeG96/anxelin-project-structure/commits/742bda54394d874907bc09ee65b1bbf5f1bd5f11))
+
+
+### Chore
+
+* rename anxelin-project-structure to aps and update docs ([bce092f](https://github.com/MikeG96/anxelin-project-structure/commits/bce092fac9740722888d8fbf03d9f4ff5601f00b))
+* **release:** 0.5.0 ([eb87950](https://github.com/MikeG96/anxelin-project-structure/commits/eb879505368f01e11cf53a1ed13f2346354868b6))
+
 ## [0.5.0](https://github.com/MikeG96/anxelin-project-structure/compare/v0.4.0...v0.5.0) (2021-01-29)
 
 ## [0.4.0](https://github.com/MikeG96/anxelin-project-structure/compare/v0.3.1...v0.4.0) (2021-01-29)
