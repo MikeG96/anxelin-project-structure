@@ -1,28 +1,55 @@
-# Getting Started With Schematics
+<h1 align="center">Welcome to anxelin-project-structure 👋</h1>
+<p>
+  <img alt="Version" src="https://img.shields.io/badge/version-0.1.0-blue.svg?cacheSeconds=2592000" />
+  <a href="https://github.com/MikeG96/anxelin-project-structure/#README" target="_blank">
+    <img alt="Documentation" src="https://img.shields.io/badge/documentation-yes-brightgreen.svg" />
+  </a>
+  <a href="#" target="_blank">
+    <img alt="License: MIT" src="https://img.shields.io/badge/License-MIT-yellow.svg" />
+  </a>
+</p>
 
-This repository is a basic Schematic implementation that serves as a starting point to create and publish Schematics to NPM.
+> Create a project structure for an Angular project
 
-### Testing
+### 🏠 [Homepage](https://github.com/MikeG96/anxelin-project-structure/#README)
 
-To test locally, install `@angular-devkit/schematics-cli` globally and use the `schematics` command line tool. That tool acts the same as the `generate` command of the Angular CLI, but also has a debug mode.
+## Install
 
-Check the documentation with
-```bash
-schematics --help
+```sh
+npm ci
 ```
 
-### Unit Testing
+## Current test
 
-`npm run test` will run the unit tests, using Jasmine as a runner and test framework.
-
-### Publishing
-
-To publish, simply do:
-
-```bash
-npm run build
-npm publish
+```sh
+npm run build:watch
 ```
 
-That's it!
- 
+```sh
+schematics .:anxelin-project-structure
+```
+
+## Run tests
+
+```sh
+npm run test
+```
+
+## Author
+
+👤 **mikeg96 (https://github.com/MikeG96)**
+
+* Website: https://anxelin.dev
+* Github: [@mikeg96](https://github.com/mikeg96)
+* LinkedIn: [@malgarcia](https://linkedin.com/in/malgarcia)
+
+## 🤝 Contributing
+
+Contributions, issues and feature requests are welcome!<br />Feel free to check [issues page](https://github.com/MikeG96/anxelin-project-structure/issues). 
+
+## Show your support
+
+Give a ⭐️ if this project helped you!
+
+***
+_This README was generated with ❤️ by [readme-md-generator](https://github.com/kefranabg/readme-md-generator)_
