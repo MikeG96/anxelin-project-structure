@@ -4,14 +4,14 @@ import { Rule, SchematicContext, Tree } from '@angular-devkit/schematics';
 // per file.
 export function anxelinFolderStructure(_options: any): Rule {
   return (tree: Tree, _context: SchematicContext) => {
-    tree.create('/config/.gitkeep', '');
-    tree.create('/pages/.gitkeep', '');
-    tree.create('/shared/guards/.gitkeep', '');
-    tree.create('/shared/interceptors/.gitkeep', '');
-    tree.create('/shared/models/.gitkeep', '');
-    tree.create('/shared/modules/.gitkeep', '');
-    tree.create('/shared/services/.gitkeep', '');
-    tree.create('/shared/utilities/form.utilities.ts', '');
+    tree.create('./src/config/.gitkeep', '');
+    tree.create('./src/pages/.gitkeep', '');
+    tree.create('./src/shared/guards/.gitkeep', '');
+    tree.create('./src/shared/interceptors/.gitkeep', '');
+    tree.create('./src/shared/models/.gitkeep', '');
+    tree.create('./src/shared/modules/.gitkeep', '');
+    tree.create('./src/shared/services/.gitkeep', '');
+    tree.create('./src/shared/utilities/form.utilities.ts', '');
 
     return tree;
   };

@@ -4,11 +4,6 @@
     "anxelin-project-structure": {
       "description": "A blank schematic.",
       "factory": "./anxelin-project-structure/index#anxelinFolderStructure"
-    },
-    "ng-add": {
-      "factory": "./ng-add/index",
-      "description": "Add schematic",
-      "schema": "./my-component/schema.json"
     }
   }
 }

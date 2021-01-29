@@ -35,6 +35,12 @@ schematics .:anxelin-project-structure
 npm run test
 ```
 
+## How to use in your Angular project? 
+
+```sh
+ng g anxelin-project-structure:anxelin-project-structure
+```
+
 ## Author
 
 👤 **mikeg96 (https://github.com/MikeG96)**
