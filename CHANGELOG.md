@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.0.2](https://github.com/MikeG96/anxelin-project-structure/compare/v1.0.1...v1.0.2) (2021-01-29)
+
+
+### Bug Fixes
+
+* paypal donate button ([ab590e1](https://github.com/MikeG96/anxelin-project-structure/commits/ab590e1fa9ec86463a92bb3c0ab3a3260d05af55))
+
+
+### Docs
+
+* add keywords ([b7b4a5c](https://github.com/MikeG96/anxelin-project-structure/commits/b7b4a5c86fb3829aa8f85a2a3db406a402a28f01))
+
 ### [1.0.1](https://github.com/MikeG96/anxelin-project-structure/compare/v1.0.0...v1.0.1) (2021-01-29)
 
 
