@@ -12,14 +12,15 @@ describe('anxelin-project-structure', () => {
       .toPromise();
 
     expect(tree.files).toEqual([
-      '/config/.gitkeep',
-      '/pages/.gitkeep',
-      '/shared/guards/.gitkeep',
-      '/shared/interceptors/.gitkeep',
-      '/shared/models/.gitkeep',
-      '/shared/modules/.gitkeep',
-      '/shared/services/.gitkeep',
-      '/shared/utilities/form.utilities.ts',
+      '/src/app/config/.gitkeep',
+      '/src/app/pages/.gitkeep',
+      '/src/app/shared/guards/.gitkeep',
+      '/src/app/shared/interceptors/.gitkeep',
+      '/src/app/shared/models/.gitkeep',
+      '/src/app/shared/modules/.gitkeep',
+      '/src/app/shared/services/.gitkeep',
+      '/src/app/shared/utilities/.gitkeep',
+      '/src/assets/styles/.gitkeep',
     ]);
   });
 });
