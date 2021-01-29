@@ -1,9 +1,9 @@
 {
   "$schema": "../node_modules/@angular-devkit/schematics/collection-schema.json",
   "schematics": {
-    "anxelin-project-structure": {
+    "aps": {
       "description": "Create project structure for Angular project.",
-      "factory": "./anxelin-project-structure/index#anxelinFolderStructure"
+      "factory": "./aps/index#anxelinFolderStructure"
     },
     "cpg": {
       "description": "Creates a prettierrc file with standard configuration",

@@ -4,11 +4,11 @@ import * as path from 'path';
 
 const collectionPath = path.join(__dirname, '../collection.json');
 
-describe('anxelin-project-structure', () => {
+describe('aps', () => {
   it('works', async () => {
     const runner = new SchematicTestRunner('schematics', collectionPath);
     const tree = await runner
-      .runSchematicAsync('anxelin-project-structure', {}, Tree.empty())
+      .runSchematicAsync('aps', {}, Tree.empty())
       .toPromise();
 
     expect(tree.files).toEqual([

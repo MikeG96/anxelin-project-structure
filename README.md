@@ -35,6 +35,8 @@ schematics .:anxelin-project-structure
 npm run test
 ```
 
+## Documentation
+
 ## How to use in your Angular project?
 
 ```sh
@@ -42,6 +44,39 @@ ng g anxelin-project-structure:<SCHEMATIC_OPTION>
 ```
 
 ## Schematic Options
+
+### aps
+
+```sh
+ng g anxelin-project-structure:aps
+```
+
+Creates a folder structure for an Angular project.
+
+```
+📦src
+ ┣ 📂app
+ ┃ ┣ 📂config
+ ┃ ┃ ┗ 📜.gitkeep
+ ┃ ┣ 📂pages
+ ┃ ┃ ┗ 📜.gitkeep
+ ┃ ┗ 📂shared
+ ┃ ┃ ┣ 📂guards
+ ┃ ┃ ┃ ┗ 📜.gitkeep
+ ┃ ┃ ┣ 📂interceptors
+ ┃ ┃ ┃ ┗ 📜.gitkeep
+ ┃ ┃ ┣ 📂models
+ ┃ ┃ ┃ ┗ 📜.gitkeep
+ ┃ ┃ ┣ 📂modules
+ ┃ ┃ ┃ ┗ 📜.gitkeep
+ ┃ ┃ ┣ 📂services
+ ┃ ┃ ┃ ┗ 📜.gitkeep
+ ┃ ┃ ┗ 📂utilities
+ ┃ ┃ ┃ ┗ 📜.gitkeep
+ ┣ 📂assets
+ ┃ ┗ 📂styles
+ ┃ ┃ ┗ 📜.gitkeep
+```
 
 ### cpg
 
