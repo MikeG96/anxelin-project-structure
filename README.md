@@ -113,6 +113,12 @@ Run in a terminal
 npm install husky && npm install @commitlint/config-conventional && npm i --save-dev standard-version
 ```
 
+We need install globally `@commitlint/config-conventional` and `commitlint/cli`. 
+
+```sh
+ npm install @commitlint/config-conventional @commitlint/cli -g
+ ```
+
 Add the following `scripts` in your `package.json`
 
 ```json
